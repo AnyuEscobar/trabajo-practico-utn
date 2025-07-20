@@ -4,9 +4,9 @@ import { Layout } from "../components/Layout"
 const Home = () => {
   return (
     <>
-      <Layout>
-        <h1>Bienvenidos a mi página!</h1>
-      </Layout>
+
+      <h1>Bienvenidos a mi página!</h1>
+
     </>
   )
 }
