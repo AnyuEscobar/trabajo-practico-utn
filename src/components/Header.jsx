@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom"
+import { Layout } from "./Layout"
 
 const Header = () => {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li><Link to="/"></Link> Inicio </li>
-          <li><Link to="/register"></Link> Registrate </li>
-          <li><Link to="/login"></Link> Inicia sesión </li>
-
-        </ul>
-      </nav>
-    </header>
+    <Layout>
+      <header>
+        <nav>
+          <ul>
+            <li><Link to="/">Inicio </Link></li>
+            <li><Link to="/register">Registrate</Link>  </li>
+            <li><Link to="/login">Inicia sesión</Link>  </li>
+          </ul>
+        </nav>
+      </header>
+    </Layout>
   )
 }
 
