@@ -12,9 +12,9 @@ const RouterApp = () => {
       <Routes>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Home />} />
+
         <Route path="*" element={<NotFound />} />
-        <Route element={<Layout />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
 

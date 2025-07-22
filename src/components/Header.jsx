@@ -3,17 +3,19 @@ import { Layout } from "./Layout"
 
 const Header = () => {
   return (
-    <Layout>
-      <header>
-        <nav>
-          <ul>
-            <li><Link to="/">Inicio </Link></li>
-            <li><Link to="/register">Registrate</Link>  </li>
-            <li><Link to="/login">Inicia sesión</Link>  </li>
-          </ul>
-        </nav>
-      </header>
-    </Layout>
+
+
+    <header>
+      <nav>
+        <ul>
+          <li><Link to="/">Inicio </Link></li>
+          <li><Link to="/register">Registrate</Link>  </li>
+          <li><Link to="/login">Inicia sesión</Link>  </li>
+        </ul>
+      </nav>
+    </header>
+
+
   )
 }
 

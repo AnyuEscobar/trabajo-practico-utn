@@ -1,8 +1,9 @@
+import { Layout } from "./Layout"
 const Footer = () => {
   return (
-    <Layout>
-      <h2> Footer...</h2>
-    </Layout>
+
+    <h2> Sitio creado por MDLAE.</h2>
+
   )
 }
 
